@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  img {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 20px;
+  }
+  body,
+  .container,
+  .content {
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: bisque;
+  }
+  
+  .container {
+    background-color: white;
+    width: 450px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 65px 65px 65px;
+  }
+  
+  .container h1 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 20px 0;
+    margin-bottom: 25px;
+  }
+  
+  .container .content {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+  .content .column {
+    border-radius: 10px;
+    padding: 0 10px;
+    width: calc(100% / 3 - 5px);
+  }
+  
+  
+  .column select {
+    outline: none;
+    border: none;
+    height: 45px;
+    width: 100%;
+    font-size: 19px;
+  }
+  
+  .container button {
+    width: 100%;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 17px 0;
+    border-radius: 7px;
+    background-color: cornflowerblue;
+  
+  }
+
+.timeInput {
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 19.5px;
+    font-weight: 500;
+}

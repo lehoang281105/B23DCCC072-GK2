@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+
+
+
+.wrapper {
+    background-color: #fff;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_AandB {
+    width: 300px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-top: 20px
+}
+
+
+.ketqua {
+    margin-top: 30px;
+}
